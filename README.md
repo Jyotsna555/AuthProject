@@ -11,8 +11,10 @@ Each role has a list of scopes that determine whether a user has access to the r
 3) student-get
 4) student-create
 5) school-create
-6) school-get
-They must be mentioned in string form in the scopes array.
+6) school-get 
+
+They must be mentioned in string form in the scopes array. 
+
 Role "Admin" has all scopes.
 
 Once the user signs up, they must sign in at /signin using email and password (both strings). A cookie is created using json web token.
